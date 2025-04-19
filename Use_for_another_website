@@ -8,7 +8,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-model = Ollama(base_url="http://65.2.74.49:11435/", model="llama2")
+model = Ollama(base_url="http://65.2.74.49:11435/", deepseek-r1:1.5b")
 
 def scrape_website(url):
     try:
