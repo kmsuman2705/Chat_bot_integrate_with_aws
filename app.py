@@ -9,7 +9,7 @@ from langchain.schema import LLMResult
 app = Flask(__name__)
 
 # Set up Ollama model
-model = Ollama(base_url="http://65.2.74.49:11435/", model="llama2")
+model = Ollama(base_url="http://13.235.50.9:11435//", model="llama2")
 
 def scrape_website(url):
     try:
